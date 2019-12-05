@@ -16,10 +16,10 @@ To address the ESP32 ADC non-linear issue, a lookup table is used to correct the
 
 The ESP32 is much noisy compare to Arduino. Add a 0.1uF capacity on Vout would help a little bit in smoothing out the noise or alternative write a filter algorithm to handle it.
 
-** Arduino ADC reading from thermistor **
+**Arduino ADC reading from thermistor**
 [![Arduino ADC reading from thermistor](https://github.com/e-tinkers/ntc-thermistor-with-arduino-and-esp32/blob/master/images/Arduino_ADC_reading.png)](https://github.com/e-tinkers/ntc-thermistor-with-arduino-and-esp32/blob/master/images/Arduino_ADC_reading.png)
 
-** ESP32 ADC reading from thermistor **
+**ESP32 ADC reading from thermistor**
 [![ESP32 ADC reading from thermistor](https://github.com/e-tinkers/ntc-thermistor-with-arduino-and-esp32/blob/master/images/ESP32_ADC_reading.png)](https://github.com/e-tinkers/ntc-thermistor-with-arduino-and-esp32/blob/master/images/ESP32_ADC_reading.png)
 
 ### References
